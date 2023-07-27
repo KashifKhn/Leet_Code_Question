@@ -1,4 +1,7 @@
+// Question Link   https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/
+
 public class CountVowelStrings_2568 {
+    
     private static boolean isVowel(char ch) {
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
     }

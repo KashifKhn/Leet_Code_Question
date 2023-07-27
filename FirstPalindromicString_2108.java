@@ -1,4 +1,7 @@
+// Question Link    https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
+
 public class FirstPalindromicString_2108 {
+
     public static boolean isPalindrom(String str) {
         int firstIdx = 0;
         int lastIdx = str.length() - 1;
