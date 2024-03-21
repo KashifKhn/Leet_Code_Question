@@ -2,7 +2,7 @@
 
 public class MaximumSubarray_53 {
     public static void maxSubArray(int[] arr) {
-        int maxSum = Integer.MIN_VALUE;
+        int maxSum = arr[0];
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
